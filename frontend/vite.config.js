@@ -4,6 +4,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
 
+  base: './',
+
   // Optional: Customize the build directory if needed
   build: {
     outDir: 'dist', // Default build output directory for Vercel
@@ -18,7 +20,3 @@ export default defineConfig({
     },
   },
 });
-
-export default {
-  base: './',
-};
