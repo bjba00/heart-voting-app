@@ -10,7 +10,8 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "lucide-react": "^0.295.0"
+    "lucide-react": "^0.295.0",
+    "@vitejs/plugin-react": "^4.0.0"
   },
   "devDependencies": {
     "vite": "^4.0.0"
